@@ -1,7 +1,6 @@
 package org.afrinnov.apppoc.pay.service.adapter;
 
 import lombok.RequiredArgsConstructor;
-import org.afrinnov.apppoc.cra.repository.CraRepository;
 import org.afrinnov.apppoc.employee.spi.EmployeeApiService;
 import org.afrinnov.apppoc.employee.spi.model.EmployeeInfo;
 import org.afrinnov.apppoc.notify.MailMessage;

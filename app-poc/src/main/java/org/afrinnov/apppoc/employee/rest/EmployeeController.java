@@ -2,7 +2,6 @@ package org.afrinnov.apppoc.employee.rest;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.afrinnov.apppoc.employee.dto.Employee;
 import org.afrinnov.apppoc.employee.dto.EmployeeId;
 import org.afrinnov.apppoc.employee.rest.input.EmployeeCreate;
 import org.afrinnov.apppoc.employee.rest.input.EmployeeEdit;

@@ -3,7 +3,6 @@ package org.afrinnov.apppoc.pay.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.afrinnov.apppoc.cra.entity.MMonth;
 
 @Entity
 @Table(name = "m_pay_monthly", uniqueConstraints = {

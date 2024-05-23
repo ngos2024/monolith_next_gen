@@ -4,8 +4,6 @@ package org.afrinnov.apppoc.cra.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.time.Month;
-
 @Entity
 @Table(name = "m_cra_monthly", uniqueConstraints = {
         @UniqueConstraint(columnNames = {"matricule", "year", "month"})

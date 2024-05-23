@@ -6,7 +6,7 @@ import lombok.*;
 
 @Entity
 @Table(name = "m_cra_monthly", uniqueConstraints = {
-        @UniqueConstraint(columnNames = {"matricule", "year", "month"})
+        @UniqueConstraint(columnNames = {"matricule", "_year", "_month"})
 })
 @Getter
 @Setter
@@ -18,10 +18,10 @@ public class CraEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Id
     private Long id;
-    @Column(nullable = false)
+    @Column(nullable = false, name = "_month")
     @Enumerated(EnumType.STRING)
     private MMonth month;
-    @Column(nullable = false)
+    @Column(nullable = false, name = "_year")
     private int year;
     @Column(nullable = false)
     private String matricule;

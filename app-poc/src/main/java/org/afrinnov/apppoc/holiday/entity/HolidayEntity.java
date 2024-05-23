@@ -7,7 +7,7 @@ import java.time.LocalDate;
 
 @Entity
 @Table(name = "m_holiday", uniqueConstraints = {
-        @UniqueConstraint(columnNames = {"matricule", "date"})
+        @UniqueConstraint(columnNames = {"matricule", "_date"})
 })
 @Getter
 @Setter
@@ -21,7 +21,7 @@ public class HolidayEntity {
     private Long id;
     @Column(nullable = false)
     private String matricule;
-    @Column(nullable = false)
+    @Column(nullable = false, name = "_date")
     private LocalDate date;
     @Column(nullable = false)
     private boolean accepted;

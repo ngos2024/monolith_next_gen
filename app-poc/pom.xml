@@ -8,7 +8,7 @@
         <version>3.2.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>org.afrinnov</groupId>
+    <groupId>org.afrinnov.onelogic.hr</groupId>
     <artifactId>app-poc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>app-poc</name>

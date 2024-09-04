@@ -21,3 +21,7 @@ spring:
     show-sql: true
 server:
   port: 8181
+management:
+  tracing:
+    sampling:
+      probability: 1.0

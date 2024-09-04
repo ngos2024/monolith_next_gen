@@ -10,6 +10,10 @@ class AppPocApplicationTests {
     private final ApplicationModules applicationModules = ApplicationModules.of(AppPocApplication.class);
     @Test
     void contextLoads() {
+
+        // List of Module
+        applicationModules.forEach(System.out::println);
+        // Trigger verification
         applicationModules.verify();
     }
 
